@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <img src="https://png.pngtree.com/png-vector/20220417/ourmid/pngtree-women-nature-logo-png-image_4546651.png" alt="Logo" class="logo">
+            <h3 class="hideOnMobile">Terrerialy.com</h3>
+        </div>
+        <ul>
+            <li class="hideOnMobile"><a href="#SectionA" class="active">Home</a></li>
+            <li class="hideOnMobile"><a href="#SectionB">About</a></li>
+            <li class="hideOnMobile"><a href="#SectionC">Facts</a></li>
+            <li class="hideOnMobile"><a href="#footing">Contact</a></li>
+        </ul>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#" class="active"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="#SectionA" class="active">Home</a></li>
+            <li><a href="#SectionB">About</a></li>
+            <li><a href="#SectionC">Facts</a></li>
+            <li><a href="#footing">Contact</a></li>
+            <li><a href="logReg.html">Logout</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="logReg.html">Logout</a></li>
+            <li onclick=showSidebar() class="showOnMobile"><a href="#contact"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <section id="SectionA">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <div class="slider-overlay"></div>
+                <h1 id="title1">A WORLD CONTAINED IN GLASS</h1>
+                <img id="slide-1" src="https://wallpapers.com/images/hd/terrarium-background-1920-x-1080-x0n9sa9wsuv1xjgy.jpg" alt="image1">
+                <img id="slide-2" src="https://platform.polygon.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25491809/Pantdora.png?quality=90&strip=all&crop=0,0,100,100" alt="image2">
+                <img id="slide-3" src="https://cdnb.artstation.com/p/assets/images/images/062/150/721/large/ilhun-jeong-highresscreenshot00000.jpg?1682463947" alt="image3">
+            </div>
+            <div class="slider-nav">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="SectionB">
+        <div class="content-wrapper">
+            <div class="text-block">
+                <h2>About Terrariums</h2>
+                <p>
+                    We believe in the transformative power of nature, creating microcosms of life within the fragile beauty of glass. 
+                    Each terrarium is not just a container; it is a living masterpiece, combining art and nature.
+                </p>
+            </div>
+            <div class="image-block">
+                <img src="https://wallpapers.com/images/hd/terrarium-background-1920-x-1080-sfxw2hn5q3dugfgj.jpg" alt="About Us Image">
+            </div>
+        </div>
+    </section>
+
+    <section id="SectionC">
+        <div class="cards-wrapper">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJEooF4HfRzX5LyV2VMatNEwJwbGuMrxfxnQ&s" alt="Card 1">
+                <h3>Terrariums Improve Air Quality</h3>
+                <p>Studies show that terrariums help purify the air by absorbing carbon dioxide and releasing oxygen, creating a healthier environment.</p>
+            </div>
+            <div class="card">
+                <img src="https://i.ytimg.com/vi/9B7aIULFjrc/maxresdefault.jpg" alt="Card 2">
+                <h3>Terrariums are Low Maintenance</h3>
+                <p>Unlike traditional gardens, terrariums are self-sustaining ecosystems that require minimal care and water, making them perfect for busy people.</p>
+            </div>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl_yWx31hsMSRQC9Yu4W3KBPaBsZ3cgIK5VQ&s" alt="Card 3">
+                <h3>Terrariums Reduce Stress</h3>
+                <p>Studies suggest that being around plants can reduce stress levels and enhance your mood, making terrariums a great addition to your home or workspace.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footing">
+        <div class="container">
+            <p>&copy; 2024 Denzel Lorenz M. Menioria. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js" defer></script>
+</body>
+</html>
